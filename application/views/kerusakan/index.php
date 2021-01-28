@@ -31,7 +31,7 @@
 									<tr>
 										<td><?php echo $nomor++; ?></td>
 										<td><?php echo $kr->id_kerusakan; ?></td>
-										<td><?php echo $kr->id_perangkat_keras; ?></td>
+										<td><?php echo $kr->perangkat_keras; ?></td>
 										<td><?php echo $kr->nama_kerusakan; ?></td>
 										<td>
 											<a href="<?php echo base_url('kerusakan/edit/' . $kr->id_kerusakan); ?>"

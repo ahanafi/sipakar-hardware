@@ -9,12 +9,12 @@
 					<div class="card-body">
 						<div class="clearfix">
 							<div class="float-left">
-								<i class="fa fa-users icon-lg"></i>
+								<i class="fa fa-microchip icon-lg"></i>
 							</div>
 							<div class="float-right">
-								<p class="mb-0 text-right text-white">Total Dosen</p>
+								<p class="mb-0 text-right text-white">Jenis Perangkat Keras</p>
 								<div class="fluid-container">
-									<h1 class="font-weight-medium text-right mb-0"><?php echo $total_dosen; ?></h1>
+									<h1 class="font-weight-medium text-right mb-0"><?php echo $jumlah_hardware; ?></h1>
 								</div>
 							</div>
 						</div>
@@ -28,12 +28,12 @@
 					<div class="card-body">
 						<div class="clearfix">
 							<div class="float-left">
-								<i class="fa fa-book icon-lg"></i>
+								<i class="fa fa-search-plus icon-lg"></i>
 							</div>
 							<div class="float-right">
-								<p class="mb-0 text-right text-white">BAP Terverifikasi</p>
+								<p class="mb-0 text-right text-white">Jumlah Data Konsultasi</p>
 								<div class="fluid-container">
-									<h1 class="font-weight-medium text-right mb-0">3455</h1>
+									<h1 class="font-weight-medium text-right mb-0"><?php echo $jumlah_konsultasi; ?></h1>
 								</div>
 							</div>
 						</div>
@@ -47,12 +47,12 @@
 					<div class="card-body">
 						<div class="clearfix">
 							<div class="float-left">
-								<i class="fa fa-file-text icon-lg"></i>
+								<i class="fa fa-users icon-lg"></i>
 							</div>
 							<div class="float-right">
-								<p class="mb-0 text-right text-white">BAP Belum Verifikasi</p>
+								<p class="mb-0 text-right text-white">Jumlah Akun Pengguna</p>
 								<div class="fluid-container">
-									<h1 class="font-weight-medium text-right mb-0">5693</h1>
+									<h1 class="font-weight-medium text-right mb-0"><?php echo $jumlah_pengguna; ?></h1>
 								</div>
 							</div>
 						</div>

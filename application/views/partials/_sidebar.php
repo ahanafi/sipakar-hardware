@@ -31,30 +31,18 @@
 					<span class="menu-title">Dashboard</span>
 				</a>
 			</li>
-			<?php if (showOnlyTo('ADMINISTRATOR')): ?>
-				<li class="nav-item">
-					<a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false"
-					   aria-controls="ui-basic">
-						<i class="menu-icon typcn typcn-coffee"></i>
-						<span class="menu-title">Data Master</span>
-						<i class="menu-arrow"></i>
-					</a>
-					<div class="collapse" id="ui-basic">
-						<ul class="nav flex-column sub-menu">
-							<li class="nav-item">
-								<a class="nav-link" href="<?php echo base_url('jenis-perangkat-keras') ?>">Data
-									Perangkat Keras</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="<?php echo base_url('kerusakan') ?>">Data Kerusakan</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="<?php echo base_url('solusi') ?>">Data Solusi</a>
-							</li>
-						</ul>
-					</div>
-				</li>
-			<?php endif; ?>
+			<li class="nav-item">
+				<a class="nav-link" href="<?php echo base_url('jenis-perangkat-keras'); ?>">
+					<i class="menu-icon typcn typcn-shopping-bag"></i>
+					<span class="menu-title">Data Perangkat Keras</span>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="<?php echo base_url('kerusakan'); ?>">
+					<i class="menu-icon typcn typcn-shopping-bag"></i>
+					<span class="menu-title">Data Kerusakan</span>
+				</a>
+			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="<?php echo base_url('data-konsultasi'); ?>">
 					<i class="menu-icon typcn typcn-shopping-bag"></i>

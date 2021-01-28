@@ -44,9 +44,11 @@
 										<td>
 											<a href="<?php echo base_url('user/edit/' . $user->id_pengguna); ?>"
 											   class="btn btn-success text-white">Edit</a>
+											<?php if($user->id_pengguna != getUser('id_pengguna')):?>
 											<a href="#"
 											   onclick="showConfirmDelete('user', <?php echo $user->id_pengguna; ?>)"
 											   class="btn btn-danger">Hapus</a>
+											<?php endif; ?>
 										</td>
 									</tr>
 								<?php endforeach; ?>
