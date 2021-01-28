@@ -1,0 +1,29 @@
+.table tr td > .btn{
+	padding: 0.4rem 1rem !important;
+}
+
+.error-text{
+	color: #ff6258 !important;
+	font-size: 0.65rem !important;
+}
+
+.hidden{
+	display: none !important;
+	visibility: hidden !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.no-border-radius{
+	border-radius: 0 !important;
+}
