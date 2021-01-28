@@ -3,6 +3,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Konsultasi extends CI_Controller
 {
+	public function __construct()
+	{
+		parent::__construct();
+
+		//remove user session (administrator)
+		$this->session->unset_userdata("user");
+		$this->session->unset_userdata("is_logged_in");
+		$this->session->unset_userdata("logged_in_at");
+	}
 
 	public function index()
 	{

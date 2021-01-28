@@ -146,7 +146,6 @@ class Kerusakan extends CI_Controller
 			],
 		];
 	}
-
 }
 
-/* End of file Fakultas.php */
+/* End of file Kerusakan.php */
