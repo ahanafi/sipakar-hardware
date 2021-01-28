@@ -21,7 +21,7 @@
 									</a>
 									<a class="wizard-step" href="#two">
 										<p class="step-number">2</p>
-										<p class="step-details">Personal<br>Information</p>
+										<p class="step-details">Pilih Kerusakan</p>
 									</a>
 									<a class="wizard-step done" href="#three">
 										<p class="step-number">3</p>
